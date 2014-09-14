@@ -1,0 +1,204 @@
+/*
+ * File:   Player.cpp
+ *
+ * Author: RAJIB AHMED            - raae10
+ * Author: MOHAMMAD ABDUR RAZZAK  - morc10
+ *
+ * Created on November 21, 2011, 1:57 AM
+ */
+
+#include "Player.h"
+
+Player::Player(string name, int score, int location){
+    this->name = name;
+    this->score = score;
+    this->current_location_idx = location;
+    this->message_id=0;
+}
+
+Player::~Player(){}
+
+string Player::get_input(){
+    return answer;
+}
+
+void Player::set_current_location(int location){
+    this->current_location_idx = location;
+}
+
+int Player::get_current_location(){
+
+    return this->current_location_idx;
+}
+
+void Player::set_item(int item){
+    current_item = item;
+}
+
+int Player::get_item(){
+    return current_item;
+}
+
+
+void Player::set_score(int score){
+    this->score  = score;
+}
+
+
+
+
+int Player::get_score(){
+    return this->score;
+}
+
+string Player::get_info(){
+    return name;
+}
+
+Node* Player::get_location(){
+    return this->location;
+}
+
+void Player::set_location(Node* loc){
+    this->location = loc;
+}
+
+/*
+ *
+ */
+void Player::go_to_next_location(){
+
+    location->directions;
+    location->active_verbs;
+
+    for(int i=0 ; i < 10; i++){
+        if(location->directions[i] > 0){
+            for(int j=0 ; j < 10 ; j++){
+                if(location->active_verbs[i][j] > 0){
+                    if( location->active_verbs[i][j]== moves){
+                        if(check_location(i)){
+                            set_current_location(this->current_location_idx);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+bool Player::check_location(int indx){
+
+        int x, y , n , m ;
+
+        bool status = false;
+
+        y = this->location->directions[indx];
+
+        m = y / 1000;
+        n = y % 1000;
+
+        cout << y << "\t n:" << n << "\t m:" << m << endl;
+
+        if(n <= 300){
+            if (m==0) {//unconditional jump
+                this->current_location_idx = y;
+                status = true;
+            }
+            else if((m>0) and (m<100)){// m% probability
+                cout << " **** Dont understand what to do with probability" << endl;
+                //rand(m % 100);
+            }
+            else if((m>100) and (m<=200)){// must be carrying an Element=M-100
+                cout << "Object needed :) " << endl;
+                int item_id= m-100;
+                int item_size = this->carrying.size();
+
+                cout << item_size << "\t" << item_id << endl;
+                if(item_size > 0){
+                  for(int i=0; i < item_size ; i++){
+                   if(this->carrying[i]->id == item_id ){
+                        this->current_location_idx = y;
+                        status = true; // make the jump
+                    }
+                  }
+                }
+            }
+            else if((m>200) and (m <= 300)){// must carry element and same room=M-200
+                cout << "room" << (m- 200) << endl;
+                int item_id= m-200;
+                int item_size = this->carrying.size();
+
+                cout << item_size << "\t" << item_id << endl;
+                if(item_size > 0){
+                  for(int i=0; i < item_size ; i++){
+                   if(this->carrying[i]->id == item_id ){
+
+                      this->current_location_idx = n;
+                      status = true; // make the jump
+                    }
+                  }
+                }
+
+            }else if((m >300) && (m <=400) && (prop_vlaue(m) != 0)){
+                cout << "Prop value not 0" <<endl;
+                this->current_location_idx = n;
+                status=true;
+
+            }else if((m>400)  && (m <=500) && (prop_vlaue(m)!=1)){
+                cout << "Prop value not 1" << endl;
+                this->current_location_idx = n;
+                status=true;
+
+            }else if((m> 500) && (m <=600) && (prop_vlaue(m)!=2)){
+                cout << "Prop value not 2" << endl;
+                this->current_location_idx = n;
+                status=true;
+            }else{
+                //default when no condition matches
+                cout << "Not matched" << endl;
+                this->current_location_idx = this->location->directions[indx+1];
+                status=true;
+            }
+
+        }
+        else if( (n > 300) && (n <=500) ) {
+            //use n-300 to go to special code;
+            status =false;
+        }else{
+            // n-500 to print section 6 and stay in same location
+            this->message_id=(n - 500);
+            status= false;
+        }
+
+
+        return status;
+}
+
+int Player::prop_vlaue(int m){
+    return m % 100 ;
+}
+
+
+void Player::carry_item(int item_id){
+
+    int item_size = this->location->items.size();
+    item_id = item_id % 1000;
+    for(int i=0 ; i < item_size; i++){
+        if(this->location->items[i]->id == item_id){
+            this->carrying.push_back(this->location->items[i]);
+            break;
+        }
+    }
+    this->noun=""; //setting to empty to fallback to if-else ladder
+}
+
+string Player::format_answer(){
+    int length = verb.length() - 2;
+    verb.erase(length);
+    for (int i = 0; i !=length ; i++) {
+        verb[i] = toupper(verb[i]);
+    }
+    return verb;
+}

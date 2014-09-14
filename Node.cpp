@@ -1,0 +1,33 @@
+/*
+ * File:   Node.cpp
+ * Author: RAJIB AHMED            - raae10
+ * Author: MOHAMMAD ABDUR RAZZAK  - morc10
+ *
+ * Created on November 20, 2011, 12:52 AM
+ */
+
+#include "Node.h"
+
+
+Node::Node(string clue_word){
+    clue = clue_word;
+    count = 0;
+}
+
+Node::~Node(){}
+
+void Node::set_clue(string clue){
+    this->clue = clue;
+
+}
+
+void set_short_clue(string short_clue){
+}
+
+void Node::append(string txt){
+    this->clue = this->clue + txt;
+}
+
+string Node::get_clue(){
+    return this->clue;
+}
