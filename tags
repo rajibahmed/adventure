@@ -1,0 +1,553 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+1	data/advent.for	/^	1	' ',I6,' OF ',I6,' MAGIC messages'\/$/;"	l	file:
+1	data/advent.for	/^	1	' ',I6,' OF ',I6,' words of messages'\/$/;"	l	file:
+1	data/advent.for	/^	1	' Probable cause: erroneous info in database.'\/$/;"	l	subroutine:BUG	file:
+1	data/advent.for	/^	1	' more point',A2\/)$/;"	l	file:
+1	data/advent.for	/^	1	' resume later, but'\/' you will have to wait at least',$/;"	l	file:
+1	data/advent.for	/^	1	', using',I5,' turns.')$/;"	l	file:
+1	data/advent.for	/^	1	'-JUL-','-AUG-','-SEP-','-OCT-','-NOV-','-DEC-'\/$/;"	l	subroutine:DATIME	file:
+1	data/advent.for	/^	1	'would be a neat trick!'\/\/' Congratulations!!'\/)$/;"	l	file:
+1	data/advent.for	/^	1	+(SHIFT(A(J+1),7*(K-6)).AND.(-2-MSK))$/;"	l	subroutine:GETIN	file:
+1	data/advent.for	/^	1	+(SHIFT(A(J+2),7*(K-6)).AND.(-2-MSK))$/;"	l	subroutine:GETIN	file:
+1	data/advent.for	/^	1	,' out of a possible',I4,'.')$/;"	l	file:
+1	data/advent.for	/^	1	,' room with you.')$/;"	l	file:
+1	data/advent.for	/^	1	,LOCSIZ,OBJ,K,VERB,VRBSIZ,J,RTXSIZ,CLSSES,CLSMAX$/;"	l	file:
+1	data/advent.for	/^	1	.AND.ATLOC(OLDLC2).EQ.0.AND.HOLDNG.GT.1)GOTO 40010$/;"	l	file:
+1	data/advent.for	/^	1	.AND.HERE(LAMP))GOTO 12000$/;"	l	file:
+1	data/advent.for	/^	1	.AND.HERE(LAMP).AND.PROP(LAMP).EQ.1)GOTO 6025$/;"	l	file:
+1	data/advent.for	/^	1	.NOT.HERE(LAMP))$/;"	l	file:
+1	data/advent.for	/^	1	.OR.(BLANKS.AND.(-MASKS(K).XOR.-1))$/;"	l	subroutine:GETIN	file:
+1	data/advent.for	/^	1	.OR.(DLOC(I).EQ.LOC.OR.ODLOC(I).EQ.LOC)$/;"	l	file:
+1	data/advent.for	/^	1	.OR.(J.GT.1.AND.NEWLOC.EQ.TK(J-1)).OR.J.GE.20$/;"	l	file:
+1	data/advent.for	/^	1	.OR.(TOTING(EGGS).AND.LOC.EQ.PLAC(EGGS)))GOTO 2011$/;"	l	file:
+1	data/advent.for	/^	1	.OR.(WD2.NE.'PLANT'.AND.WD2.NE.'DOOR'))GOTO 2610$/;"	l	file:
+1	data/advent.for	/^	1	.OR..NOT.CLOSED)GOTO 2011$/;"	l	file:
+1	data/advent.for	/^	1	.OR..NOT.HERE(BOTTLE)))GOTO 8000$/;"	l	file:
+1	data/advent.for	/^	1	.OR.CLOSNG)GOTO 2011$/;"	l	file:
+1	data/advent.for	/^	1	.OR.K.EQ.LIQLOC(LOC))SPK=94$/;"	l	file:
+1	data/advent.for	/^	1	.OR.LOC.EQ.PLAC(EMRALD)))GOTO 6020$/;"	l	file:
+1	data/advent.for	/^	1	.OR.LOC.EQ.PLAC(EMRALD)))GOTO 6023$/;"	l	file:
+1	data/advent.for	/^	1	.OR.OBJ.EQ.DWARF.OR.OBJ.EQ.DRAGON.OR.OBJ.EQ.TROLL$/;"	l	file:
+1	data/advent.for	/^	1	ATLOC(150)$/;"	l	file:
+1	data/advent.for	/^	1	CALL CARRY(BIRD+CAGE-OBJ,LOC)$/;"	l	file:
+1	data/advent.for	/^	1	CALL PSPEAK(OYSTER,1)$/;"	l	file:
+1	data/advent.for	/^	1	CLOSED,GAVEUP,SCORNG,DEMO,YEA$/;"	l	file:
+1	data/advent.for	/^	1	GOTO 2010$/;"	l	file:
+1	data/advent.for	/^	1	PROP(TROLL)=1$/;"	l	file:
+1	data/advent.for	/^	1	PTEXT(100),PROP(100)$/;"	l	file:
+1	data/advent.for	/^	1	SHORT,MAGIC,MAGNM,LATNCY,SAVED,SAVET,SETUP$/;"	l	file:
+1	data/advent.for	/^	1	SHORT,MAGIC,MAGNM,LATNCY,SAVED,SAVET,SETUP$/;"	l	function:WIZARD	file:
+1	data/advent.for	/^	1	SHORT,MAGIC,MAGNM,LATNCY,SAVED,SAVET,SETUP$/;"	l	subroutine:MAINT	file:
+1	data/advent.for	/^	1	SHORT,MAGIC,MAGNM,LATNCY,SAVED,SAVET,SETUP$/;"	l	subroutine:POOF	file:
+1	data/advent.for	/^	1	SPK=29$/;"	l	file:
+1	data/advent.for	/^	1    1080,1004) (SECT+1)$/;"	l	file:
+1	data/advent.for	/^	1    2011,9120,9130,8140,9150,8000,8000,8180,8000,8200,$/;"	l	file:
+1	data/advent.for	/^	1    2011,9120,9130,9140,9150,9160,9170,2011,9190,9190,$/;"	l	file:
+1	data/advent.for	/^	1  VRBSIZ\/35\/,RTXSIZ\/205\/,CLSMAX\/12\/,HNTSIZ\/20\/,MAGSIZ\/35\/$/;"	l	file:
+1	data/advent.for	/^	1 CALL CARRY(IDONDX,LOC)$/;"	l	file:
+1	data/advent.for	/^	1 PLACE(IDONDX).EQ.FIXD(DRAGON))$/;"	l	file:
+1	data/advent.for	/^	1 PROP(IDONDX)=-1-PROP(IDONDX)$/;"	l	file:
+1	data/advent.for	/^     1	I2,' points.')$/;"	l	file:
+1	data/advent.for	/^1	CONTINUE$/;"	l	file:
+1	data/advent.for	/^1	CONTINUE$/;"	l	subroutine:A5TOA1	file:
+1	data/advent.for	/^1	D=D+HATH(MON)$/;"	l	subroutine:DATIME	file:
+1	data/advent.for	/^1	DEMO=START(0)$/;"	l	file:
+1	data/advent.for	/^1	DO 2 T=1,D$/;"	l	function:RAN	file:
+1	data/advent.for	/^1	FIXED(OBJECT-100)=WHERE$/;"	l	subroutine:DROP	file:
+1	data/advent.for	/^1	FORMAT (' Fatal error, see source code for interpretation.'\/$/;"	l	subroutine:BUG	file:
+1	data/advent.for	/^1	FORMAT(' Prime time on ',2A5)$/;"	l	function:NEWHRX	file:
+1	data/advent.for	/^1	FORMAT()$/;"	l	subroutine:GETIN	file:
+1	data/advent.for	/^1	FORMAT()$/;"	l	subroutine:HOURS	file:
+1	data/advent.for	/^1	FORMAT(G)$/;"	l	subroutine:MAINT	file:
+1	data/advent.for	/^1	FROM=FIXED(OBJECT-100)$/;"	l	subroutine:MOVE	file:
+1	data/advent.for	/^1	IF(X.NE.0)CALL SPK(X)$/;"	l	function:YESX	file:
+1	data/advent.for	/^1	L=IABS(LINES(K))-1$/;"	l	file:
+1	data/advent.for	/^1	M=IABS(LINES(M))$/;"	l	subroutine:PSPEAK	file:
+10	data/advent.for	/^10	CONTINUE$/;"	l	subroutine:GETIN	file:
+10	data/advent.for	/^10	D=HBEGIN-D$/;"	l	subroutine:HOURS	file:
+10	data/advent.for	/^10	FORMAT(' This adventure was suspended a mere',I3,' minutes ago.')$/;"	l	file:
+10	data/advent.for	/^10	FROM=FROM+1$/;"	l	subroutine:HOURSX	file:
+10	data/advent.for	/^10	IDIST=-DIST$/;"	l	file:
+10	data/advent.for	/^10	IF(MSG(K).LT.0)RETURN$/;"	l	subroutine:MOTD	file:
+10	data/advent.for	/^10	LL=LL\/1000$/;"	l	file:
+10	data/advent.for	/^10	TYPE 12,SHORT$/;"	l	subroutine:MAINT	file:
+10	data/advent.for	/^10	TYPE 2$/;"	l	function:NEWHRX	file:
+10	data/advent.for	/^10	YESX=.TRUE.$/;"	l	function:YESX	file:
+1000	data/advent.for	/^1000	FORMAT(' Initializing...')$/;"	l	file:
+10000	data/advent.for	/^10000	PROP(GRATE)=0$/;"	l	file:
+1001	data/advent.for	/^1001	CONTINUE$/;"	l	file:
+10010	data/advent.for	/^10010	DLOC(I)=0$/;"	l	file:
+1002	data/advent.for	/^1002	READ(1,1003)SECT$/;"	l	file:
+1003	data/advent.for	/^1003	FORMAT(G)$/;"	l	file:
+1004	data/advent.for	/^1004	READ(1,1005)LOC,(LINES(J),J=LINUSE+1,LINUSE+14),KK$/;"	l	file:
+1005	data/advent.for	/^1005	FORMAT(1G,15A5)$/;"	l	file:
+1006	data/advent.for	/^1006	CONTINUE$/;"	l	file:
+1007	data/advent.for	/^1007	LINES(LINUSE)=KK+1$/;"	l	file:
+1008	data/advent.for	/^1008	LTEXT(LOC)=LINUSE$/;"	l	file:
+1010	data/advent.for	/^1010	IF(LOC.GT.0.AND.LOC.LE.100)PTEXT(LOC)=LINUSE$/;"	l	file:
+1011	data/advent.for	/^1011	IF(LOC.GT.RTXSIZ)CALL BUG(6)$/;"	l	file:
+1012	data/advent.for	/^1012	CTEXT(CLSSES)=LINUSE$/;"	l	file:
+1013	data/advent.for	/^1013	IF(LOC.GT.MAGSIZ)CALL BUG(6)$/;"	l	file:
+1020	data/advent.for	/^1020	LINUSE=KK+1$/;"	l	file:
+1030	data/advent.for	/^1030	READ(1,1031)LOC,NEWLOC,TK$/;"	l	file:
+1031	data/advent.for	/^1031	FORMAT(99G)$/;"	l	file:
+1033	data/advent.for	/^1033	TRAVEL(TRVS-1)=-TRAVEL(TRVS-1)$/;"	l	file:
+1035	data/advent.for	/^1035	DO 1037 L=1,20$/;"	l	file:
+1037	data/advent.for	/^1037	CONTINUE$/;"	l	file:
+1039	data/advent.for	/^1039	TRAVEL(TRVS-1)=-TRAVEL(TRVS-1)$/;"	l	file:
+1040	data/advent.for	/^1040	DO 1042 TABNDX=1,TABSIZ$/;"	l	file:
+1041	data/advent.for	/^1041	FORMAT(G,A5)$/;"	l	file:
+1042	data/advent.for	/^1042	ATAB(TABNDX)=ATAB(TABNDX).XOR.'PHROG'$/;"	l	file:
+1043	data/advent.for	/^1043	READ(1,1041)KTAB(TABNDX),ATAB(TABNDX)$/;"	l	file:
+1050	data/advent.for	/^1050	READ(1,1031)OBJ,J,K$/;"	l	file:
+1060	data/advent.for	/^1060	READ(1,1031)VERB,J$/;"	l	file:
+1070	data/advent.for	/^1070	READ(1,1031)K,TK$/;"	l	file:
+1071	data/advent.for	/^1071	COND(LOC)=COND(LOC)+SHIFT(1,K)$/;"	l	file:
+1080	data/advent.for	/^1080	HNTMAX=0$/;"	l	file:
+1081	data/advent.for	/^1081	READ(1,1031)K,TK$/;"	l	file:
+1083	data/advent.for	/^1083	HINTS(K,I)=TK(I)$/;"	l	file:
+11	data/advent.for	/^11	NEWLOC=LL\/1000$/;"	l	file:
+1100	data/advent.for	/^1100	IF(SETUP.EQ.2)GOTO 1$/;"	l	file:
+11000	data/advent.for	/^11000	PROP(BOTTLE)=PUT(BOTTLE,115,1)$/;"	l	file:
+1101	data/advent.for	/^1101	LINK(I+100)=0$/;"	l	file:
+11010	data/advent.for	/^11010	IF(TOTING(IDONDX))CALL DSTROY(IDONDX)$/;"	l	file:
+1102	data/advent.for	/^1102	ATLOC(I)=0$/;"	l	file:
+1106	data/advent.for	/^1106	CONTINUE$/;"	l	file:
+1107	data/advent.for	/^1107	IF(PLAC(K).NE.0.AND.FIXD(K).LE.0)CALL DROP(K,PLAC(K))$/;"	l	file:
+12	data/advent.for	/^12	FORMAT(' Length of short game (null to leave at',I3,'):')$/;"	l	subroutine:MAINT	file:
+12	data/advent.for	/^12	IF(TRAVEL(KK).LT.0)CALL BUG(25)$/;"	l	file:
+12	data/advent.for	/^12	T=MOD(T*1027,1048576)$/;"	l	function:WIZARD	file:
+1200	data/advent.for	/^1200	TALLY=TALLY-PROP(I)$/;"	l	file:
+12000	data/advent.for	/^12000	CALL RSPEAK(188)$/;"	l	file:
+12200	data/advent.for	/^12200	IF(LMWARN.OR..NOT.HERE(LAMP))GOTO 19999$/;"	l	file:
+12400	data/advent.for	/^12400	LIMIT=-1$/;"	l	file:
+12600	data/advent.for	/^12600	CALL RSPEAK(185)$/;"	l	file:
+13	data/advent.for	/^13	IF(NEWLOC.LE.100)GOTO 14$/;"	l	file:
+1300	data/advent.for	/^1300	HINTLC(I)=0$/;"	l	file:
+13000	data/advent.for	/^13000	CALL MSPEAK(1)$/;"	l	file:
+14	data/advent.for	/^14	IF(NEWLOC.NE.0.AND..NOT.PCT(NEWLOC))GOTO 12$/;"	l	file:
+14	data/advent.for	/^14	TILL=TILL+1$/;"	l	subroutine:HOURSX	file:
+15	data/advent.for	/^15	FORMAT(\/' The next holiday will be in',I3,' ',A5,' namely ',4A5)$/;"	l	subroutine:HOURS	file:
+15	data/advent.for	/^15	IF(SECOND.EQ.1)GOTO 10$/;"	l	subroutine:GETIN	file:
+15	data/advent.for	/^15	WORD=WORD+SHIFT(VAL(Y),36-7*Y)$/;"	l	function:WIZARD	file:
+16	data/advent.for	/^16	FORMAT(' Latency for restart (null to leave at',I3,'):')$/;"	l	subroutine:MAINT	file:
+16	data/advent.for	/^16	FORMAT(10X,2A5,I4,':00 to',I3,':00')$/;"	l	subroutine:HOURSX	file:
+16	data/advent.for	/^16	NEWLOC=MOD(LL,1000)$/;"	l	file:
+1700	data/advent.for	/^1700	DSEEN(I)=.FALSE.$/;"	l	file:
+18	data/advent.for	/^18	FORMAT(20X,I4,':00 to',I3,':00')$/;"	l	subroutine:HOURSX	file:
+18	data/advent.for	/^18	FORMAT(\/1X,A5)$/;"	l	function:WIZARD	file:
+1800	data/advent.for	/^1800	IF(RTEXT(2*I+81).NE.0)MAXDIE=I+1$/;"	l	file:
+19	data/advent.for	/^19	WORD=WORD-SHIFT(X,36-7*Y)$/;"	l	function:WIZARD	file:
+19000	data/advent.for	/^19000	CALL RSPEAK(136)$/;"	l	file:
+1991	data/advent.for	/^1991	K=100$/;"	l	file:
+1992	data/advent.for	/^1992	CONTINUE$/;"	l	file:
+1993	data/advent.for	/^1993	DO 1992 K=1,MAGSIZ$/;"	l	file:
+1994	data/advent.for	/^1994	CONTINUE$/;"	l	file:
+1995	data/advent.for	/^1995	IF(KTAB(K)\/1000.EQ.2)VERB=KTAB(K)-2000$/;"	l	file:
+1996	data/advent.for	/^1996	IF(PTEXT(K).NE.0)OBJ=OBJ+1$/;"	l	file:
+1997	data/advent.for	/^1997	DO 1996 K=1,100$/;"	l	file:
+1998	data/advent.for	/^1998	CONTINUE$/;"	l	file:
+1999	data/advent.for	/^1999	FORMAT (' Table space used:'\/$/;"	l	file:
+19999	data/advent.for	/^19999	K=43$/;"	l	file:
+2	data/advent.for	/^	2	' ',I6,' OF ',I6,' travel options'\/$/;"	l	file:
+2	data/advent.for	/^	2	' Error code =',I2\/)$/;"	l	subroutine:BUG	file:
+2	data/advent.for	/^	2	)$/;"	l	file:
+2	data/advent.for	/^	2	,HNTMAX,HNTSIZ,I,MAGSIZ$/;"	l	file:
+2	data/advent.for	/^	2	.OR.NEWLOC.EQ.DLOC(I).OR.FORCED(NEWLOC)$/;"	l	file:
+2	data/advent.for	/^	2	.OR.OBJ.EQ.BEAR)SPK=71$/;"	l	file:
+2	data/advent.for	/^	2	I3,' minutes before continuing.')$/;"	l	file:
+2	data/advent.for	/^	2    8000,9220,9230,8240,8250,8260,8270,8000,8000,8300,$/;"	l	file:
+2	data/advent.for	/^	2    9210,9220,9230,2011,2011,2011,9270,9280,9290,2011,$/;"	l	file:
+2	data/advent.for	/^	2 CALL MOVE(IDONDX,K)$/;"	l	file:
+2	data/advent.for	/^2	ACCEPT 3,(A(I),I=1,4)$/;"	l	subroutine:GETIN	file:
+2	data/advent.for	/^2	D=D+YEAR*365+YEAR\/4$/;"	l	subroutine:DATIME	file:
+2	data/advent.for	/^2	FORMAT(' ',14A5)$/;"	l	file:
+2	data/advent.for	/^2	FORMAT(' from:')$/;"	l	function:NEWHRX	file:
+2	data/advent.for	/^2	FORMAT(10X,2A5,'  Open all day')$/;"	l	subroutine:HOURSX	file:
+2	data/advent.for	/^2	FORMAT(4A5)$/;"	l	subroutine:MAINT	file:
+2	data/advent.for	/^2	IF(FROM.GT.0.AND.FROM.LE.300)CALL CARRY(OBJECT,FROM)$/;"	l	subroutine:MOVE	file:
+2	data/advent.for	/^2	IF(NEWLOC.GE.9.OR.NEWLOC.EQ.0.OR..NOT.CLOSNG)GOTO 71$/;"	l	file:
+2	data/advent.for	/^2	IF(WHERE.LE.0)RETURN$/;"	l	subroutine:DROP	file:
+2	data/advent.for	/^2	POSN=POSN+1$/;"	l	subroutine:A5TOA1	file:
+2	data/advent.for	/^2	R=MOD(R*1021,1048576)$/;"	l	function:RAN	file:
+2	data/advent.for	/^2	VOCAB=-1$/;"	l	file:
+20	data/advent.for	/^20	FORMAT(' ',14A5)$/;"	l	subroutine:MOTD	file:
+20	data/advent.for	/^20	IF(FIRST)TYPE 22,DAY1,DAY2$/;"	l	subroutine:HOURSX	file:
+20	data/advent.for	/^20	K=OLDLOC$/;"	l	file:
+20	data/advent.for	/^20	START=.FALSE.$/;"	l	file:
+20	data/advent.for	/^20	YESX=.FALSE.$/;"	l	function:YESX	file:
+2000	data/advent.for	/^2000	IF(LOC.EQ.0)GOTO 99$/;"	l	file:
+20000	data/advent.for	/^20000	SCORE=0$/;"	l	file:
+2001	data/advent.for	/^2001	IF(TOTING(BEAR))CALL RSPEAK(141)$/;"	l	file:
+20010	data/advent.for	/^20010	CONTINUE$/;"	l	file:
+20020	data/advent.for	/^20020	MXSCOR=MXSCOR+45$/;"	l	file:
+20030	data/advent.for	/^20030	IF(HINTED(I))SCORE=SCORE-HINTS(I,2)$/;"	l	file:
+2004	data/advent.for	/^2004	IF(I.EQ.0)GOTO 2012$/;"	l	file:
+2006	data/advent.for	/^2006	KK=PROP(OBJ)$/;"	l	file:
+2008	data/advent.for	/^2008	I=LINK(I)$/;"	l	file:
+2009	data/advent.for	/^2009	K=54$/;"	l	file:
+2010	data/advent.for	/^2010	SPK=K$/;"	l	file:
+20100	data/advent.for	/^20100	FORMAT(\/\/\/' You scored',I4,' out of a possible',I4,$/;"	l	file:
+2011	data/advent.for	/^2011	CALL RSPEAK(SPK)$/;"	l	file:
+2012	data/advent.for	/^2012	VERB=0$/;"	l	file:
+20200	data/advent.for	/^20200	CONTINUE$/;"	l	file:
+20202	data/advent.for	/^20202	FORMAT(\/' You just went off my scale!!'\/)$/;"	l	file:
+20210	data/advent.for	/^20210	CALL SPEAK(CTEXT(I))$/;"	l	file:
+20212	data/advent.for	/^20212	FORMAT(\/' To achieve the next higher rating, you need',I3,$/;"	l	file:
+20220	data/advent.for	/^20220	TYPE 20222$/;"	l	file:
+20222	data/advent.for	/^20222	FORMAT(\/' To achieve the next higher rating ',$/;"	l	file:
+21	data/advent.for	/^21	LL=MOD((IABS(TRAVEL(KK))\/1000),1000)$/;"	l	file:
+22	data/advent.for	/^22	FORMAT(10X,2A5,'  Closed all day')$/;"	l	subroutine:HOURSX	file:
+22	data/advent.for	/^22	IF(TRAVEL(KK).LT.0)GOTO 23$/;"	l	file:
+22	data/advent.for	/^22	SAVED=-1$/;"	l	file:
+23	data/advent.for	/^23	KK=K2$/;"	l	file:
+25	data/advent.for	/^25	CALL MSPEAK(3)$/;"	l	file:
+25	data/advent.for	/^25	K=MOD(IABS(TRAVEL(KK)),1000)$/;"	l	file:
+25000	data/advent.for	/^25000	STOP$/;"	l	file:
+2600	data/advent.for	/^2600	DO 2602 HINT=4,HNTMAX$/;"	l	file:
+2602	data/advent.for	/^2602	CONTINUE$/;"	l	file:
+2604	data/advent.for	/^2604	IF(TOTING(IDONDX).AND.PROP(IDONDX).LT.0)$/;"	l	file:
+2605	data/advent.for	/^2605	WZDARK=DARK(0)$/;"	l	file:
+2608	data/advent.for	/^2608	FOOBAR=MIN0(0,-FOOBAR)$/;"	l	file:
+2610	data/advent.for	/^2610	IF(WD1.NE.'WEST')GOTO 2630$/;"	l	file:
+2630	data/advent.for	/^2630	I=VOCAB(WD1,-1)$/;"	l	file:
+2800	data/advent.for	/^2800	WD1=WD2$/;"	l	file:
+3	data/advent.for	/^	3	' ',I6,' OF ',I6,' vocabulary words'\/$/;"	l	file:
+3	data/advent.for	/^	3	.OR.(I.EQ.6.AND.BITSET(NEWLOC,3))$/;"	l	file:
+3	data/advent.for	/^	3    2011)VERB$/;"	l	file:
+3	data/advent.for	/^	3    8310)VERB$/;"	l	file:
+3	data/advent.for	/^3	CONTINUE$/;"	l	subroutine:PSPEAK	file:
+3	data/advent.for	/^3	FORMAT(4A5)$/;"	l	subroutine:GETIN	file:
+3	data/advent.for	/^3	FORMAT(G)$/;"	l	function:NEWHRX	file:
+3	data/advent.for	/^3	VOCAB=KTAB(I)$/;"	l	file:
+30	data/advent.for	/^30	CALL MSPEAK(8)$/;"	l	file:
+30	data/advent.for	/^30	DO 31 I=1,DIST$/;"	l	file:
+30	data/advent.for	/^30	IF(DETAIL.LT.3)CALL RSPEAK(15)$/;"	l	file:
+3000	data/advent.for	/^3000	SPK=60$/;"	l	file:
+30000	data/advent.for	/^30000	NEWLOC=NEWLOC-300$/;"	l	file:
+30100	data/advent.for	/^30100	NEWLOC=99+100-LOC$/;"	l	file:
+30200	data/advent.for	/^30200	CALL DROP(EMRALD,LOC)$/;"	l	file:
+30300	data/advent.for	/^30300	IF(PROP(TROLL).NE.1)GOTO 30310$/;"	l	file:
+30310	data/advent.for	/^30310	NEWLOC=PLAC(TROLL)+FIXD(TROLL)-LOC$/;"	l	file:
+31	data/advent.for	/^31	SHIFT=(SHIFT.AND."177777777777)*2+J$/;"	l	file:
+33	data/advent.for	/^33	CALL MSPEAK(9)$/;"	l	file:
+4	data/advent.for	/^	4	' ',I6,' OF ',I6,' locations'\/$/;"	l	file:
+4	data/advent.for	/^	4	.OR.IABS(TRAVEL(KK))\/1000000.EQ.100)GOTO 6014$/;"	l	file:
+4	data/advent.for	/^4	FORMAT(' till:')$/;"	l	function:NEWHRX	file:
+40	data/advent.for	/^40	IF(LOC.LT.8)CALL RSPEAK(57)$/;"	l	file:
+4000	data/advent.for	/^4000	VERB=K$/;"	l	file:
+40000	data/advent.for	/^40000	GOTO (40400,40500,40600,40700,40800,40900)(HINT-3)$/;"	l	file:
+40010	data/advent.for	/^40010	HINTLC(HINT)=0$/;"	l	file:
+40012	data/advent.for	/^40012 FORMAT(\/' I am prepared to give you a hint, but it will cost you',$/;"	l	file:
+40020	data/advent.for	/^40020	HINTLC(HINT)=0$/;"	l	file:
+40030	data/advent.for	/^40030	GOTO 2602$/;"	l	file:
+40400	data/advent.for	/^40400	IF(PROP(GRATE).EQ.0.AND..NOT.HERE(KEYS))GOTO 40010$/;"	l	file:
+40500	data/advent.for	/^40500	IF(HERE(BIRD).AND.TOTING(ROD).AND.OBJ.EQ.BIRD)GOTO 40010$/;"	l	file:
+40600	data/advent.for	/^40600	IF(HERE(SNAKE).AND..NOT.HERE(BIRD))GOTO 40010$/;"	l	file:
+40700	data/advent.for	/^40700	IF(ATLOC(LOC).EQ.0.AND.ATLOC(OLDLOC).EQ.0$/;"	l	file:
+4080	data/advent.for	/^4080	GOTO(8010,8000,8000,8040,2009,8040,9070,9080,8000,8000,$/;"	l	file:
+40800	data/advent.for	/^40800	IF(PROP(EMRALD).NE.-1.AND.PROP(PYRAM).EQ.-1)GOTO 40010$/;"	l	file:
+4090	data/advent.for	/^4090	GOTO(9010,9020,9030,9040,2009,9040,9070,9080,9090,2011,$/;"	l	file:
+40900	data/advent.for	/^40900	GOTO 40010$/;"	l	file:
+5	data/advent.for	/^	5	' ',I6,' OF ',I6,' objects'\/$/;"	l	file:
+5	data/advent.for	/^5	FORMAT(\/' Today is a holiday, namely ',4A5)$/;"	l	subroutine:HOURS	file:
+5	data/advent.for	/^5	IF(ATLOC(WHERE).NE.OBJECT)GOTO 6$/;"	l	subroutine:CARRY	file:
+5	data/advent.for	/^5	NEWHRX=(NEWHRX.OR.SHIFT(1,IDONDX))$/;"	l	function:NEWHRX	file:
+50	data/advent.for	/^50	M=1$/;"	l	subroutine:MOTD	file:
+50	data/advent.for	/^50	SPK=12$/;"	l	file:
+5000	data/advent.for	/^5000	OBJ=K$/;"	l	file:
+5010	data/advent.for	/^5010	IF(WD2.NE.0)GOTO 2800$/;"	l	file:
+5015	data/advent.for	/^5015	FORMAT(\/' What do you want to do with the ',20A1)$/;"	l	file:
+5100	data/advent.for	/^5100	IF(K.NE.GRATE)GOTO 5110$/;"	l	file:
+5110	data/advent.for	/^5110	IF(K.NE.DWARF)GOTO 5120$/;"	l	file:
+5112	data/advent.for	/^5112	CONTINUE$/;"	l	file:
+5120	data/advent.for	/^5120	IF((LIQ(0).EQ.K.AND.HERE(BOTTLE)).OR.K.EQ.LIQLOC(LOC))GOTO 5010$/;"	l	file:
+5130	data/advent.for	/^5130	IF(OBJ.NE.KNIFE.OR.KNFLOC.NE.LOC)GOTO 5140$/;"	l	file:
+5140	data/advent.for	/^5140	IF(OBJ.NE.ROD.OR..NOT.HERE(ROD2))GOTO 5190$/;"	l	file:
+5190	data/advent.for	/^5190	IF((VERB.EQ.FIND.OR.VERB.EQ.INVENT).AND.WD2.EQ.0)GOTO 5010$/;"	l	file:
+5199	data/advent.for	/^5199	FORMAT(\/' I see no ',20A1)$/;"	l	file:
+55	data/advent.for	/^55	ACCEPT 56,(MSG(I),I=M+1,M+14),K$/;"	l	subroutine:MOTD	file:
+56	data/advent.for	/^56	FORMAT(15A5)$/;"	l	subroutine:MOTD	file:
+6	data/advent.for	/^	6	' ',I6,' OF ',I6,' action verbs'\/$/;"	l	file:
+6	data/advent.for	/^6	TEMP=ATLOC(WHERE)$/;"	l	subroutine:CARRY	file:
+60	data/advent.for	/^60	DO 62 I=1,14$/;"	l	subroutine:MOTD	file:
+6000	data/advent.for	/^6000	IF(DFLAG.NE.1)GOTO 6010$/;"	l	file:
+6001	data/advent.for	/^6001	IF(PCT(50).AND.SAVED.EQ.-1)DLOC(J)=0$/;"	l	file:
+6002	data/advent.for	/^6002	ODLOC(I)=DLOC(I)$/;"	l	file:
+6010	data/advent.for	/^6010	DTOTAL=0$/;"	l	file:
+6012	data/advent.for	/^6012	NEWLOC=MOD(IABS(TRAVEL(KK))\/1000,1000)$/;"	l	file:
+6014	data/advent.for	/^6014	KK=KK+1$/;"	l	file:
+6016	data/advent.for	/^6016	TK(J)=ODLOC(I)$/;"	l	file:
+6020	data/advent.for	/^6020	IF(HERE(IDONDX))K=1$/;"	l	file:
+6022	data/advent.for	/^6022	CALL RSPEAK(128)$/;"	l	file:
+6023	data/advent.for	/^6023	CONTINUE$/;"	l	file:
+6024	data/advent.for	/^6024	DLOC(6)=CHLOC$/;"	l	file:
+6025	data/advent.for	/^6025	CALL RSPEAK(186)$/;"	l	file:
+6027	data/advent.for	/^6027	DTOTAL=DTOTAL+1$/;"	l	file:
+6030	data/advent.for	/^6030	CONTINUE$/;"	l	file:
+62	data/advent.for	/^62	CONTINUE$/;"	l	subroutine:MOTD	file:
+65	data/advent.for	/^65	MSG(M)=K+1$/;"	l	subroutine:MOTD	file:
+67	data/advent.for	/^67	FORMAT(\/' There are ',I1,' threatening little dwarves in the'$/;"	l	file:
+68	data/advent.for	/^68	FORMAT(\/' ',I1,' of them get you!')$/;"	l	file:
+7	data/advent.for	/^	7	' ',I6,' OF ',I6,' RTEXT messages'\/$/;"	l	file:
+7	data/advent.for	/^7	IF(LINK(TEMP).EQ.OBJECT)GOTO 8$/;"	l	subroutine:CARRY	file:
+71	data/advent.for	/^71	IF(NEWLOC.EQ.LOC.OR.FORCED(LOC).OR.BITSET(LOC,3))GOTO 74$/;"	l	file:
+73	data/advent.for	/^73	CONTINUE$/;"	l	file:
+74	data/advent.for	/^74	LOC=NEWLOC$/;"	l	file:
+75	data/advent.for	/^75	CALL RSPEAK(4)$/;"	l	file:
+77	data/advent.for	/^77	IF(ATTACK.EQ.0)GOTO 2000$/;"	l	file:
+78	data/advent.for	/^78	FORMAT(\/' ',I1,' of them throw knives at you!')$/;"	l	file:
+79	data/advent.for	/^79	CALL RSPEAK(5)$/;"	l	file:
+8	data/advent.for	/^	8	' ',I6,' OF ',I6,' CLASS messages'\/$/;"	l	file:
+8	data/advent.for	/^8	KK=KEY(LOC)$/;"	l	file:
+8	data/advent.for	/^8	LINK(TEMP)=LINK(OBJECT)$/;"	l	subroutine:CARRY	file:
+8000	data/advent.for	/^8000	CALL A5TOA1(WD1,WD1X,'What?',TK,K)$/;"	l	file:
+8002	data/advent.for	/^8002	FORMAT(\/' ',20A1)$/;"	l	file:
+8010	data/advent.for	/^8010	IF(ATLOC(LOC).EQ.0.OR.LINK(ATLOC(LOC)).NE.0)GOTO 8000$/;"	l	file:
+8012	data/advent.for	/^8012	CONTINUE$/;"	l	file:
+8040	data/advent.for	/^8040	SPK=28$/;"	l	file:
+8140	data/advent.for	/^8140	IF(.NOT.HERE(FOOD))GOTO 8000$/;"	l	file:
+8142	data/advent.for	/^8142	CALL DSTROY(FOOD)$/;"	l	file:
+8180	data/advent.for	/^8180	GAVEUP=YES(22,54,54)$/;"	l	file:
+8185	data/advent.for	/^8185	IF(GAVEUP)GOTO 20000$/;"	l	file:
+82	data/advent.for	/^82	IF(STICK.GT.1)GOTO 83$/;"	l	file:
+8200	data/advent.for	/^8200	SPK=98$/;"	l	file:
+8201	data/advent.for	/^8201	CONTINUE$/;"	l	file:
+8240	data/advent.for	/^8240	SCORNG=.TRUE.$/;"	l	file:
+8241	data/advent.for	/^8241	SCORNG=.FALSE.$/;"	l	file:
+8243	data/advent.for	/^8243	FORMAT(\/' If you were to quit now, you would score',I4$/;"	l	file:
+8250	data/advent.for	/^8250	K=VOCAB(WD1,3)$/;"	l	file:
+8252	data/advent.for	/^8252	FOOBAR=K$/;"	l	file:
+8260	data/advent.for	/^8260	SPK=156$/;"	l	file:
+8270	data/advent.for	/^8270	IF(HERE(MAGZIN))OBJ=MAGZIN$/;"	l	file:
+83	data/advent.for	/^83	TYPE 68,STICK$/;"	l	file:
+8300	data/advent.for	/^8300	SPK=201$/;"	l	file:
+8302	data/advent.for	/^8302	FORMAT(\/' I can suspend your adventure for you so that you can',$/;"	l	file:
+8305	data/advent.for	/^8305	YEA=START(0)$/;"	l	file:
+8310	data/advent.for	/^8310	CALL MSPEAK(6)$/;"	l	file:
+84	data/advent.for	/^84	OLDLC2=LOC$/;"	l	file:
+9	data/advent.for	/^	9	' ',I6,' OF ',I6,' hints'\/$/;"	l	file:
+9	data/advent.for	/^9	A(I)=A(I).AND.(SHIFT((A(I).AND.'@@@@@'),-1).XOR.-1)$/;"	l	subroutine:GETIN	file:
+9	data/advent.for	/^9	CALL SPEAK(M)$/;"	l	subroutine:PSPEAK	file:
+9	data/advent.for	/^9	FORMAT(\/' Please answer the question.')$/;"	l	function:YESX	file:
+9	data/advent.for	/^9	LL=IABS(TRAVEL(KK))$/;"	l	file:
+90	data/advent.for	/^90	CALL RSPEAK(23)$/;"	l	file:
+90	data/advent.for	/^90	MSG(M)=-1$/;"	l	subroutine:MOTD	file:
+9010	data/advent.for	/^9010	IF(TOTING(OBJ))GOTO 2011$/;"	l	file:
+9013	data/advent.for	/^9013	IF(TOTING(CAGE))GOTO 9015$/;"	l	file:
+9014	data/advent.for	/^9014	IF((OBJ.EQ.BIRD.OR.OBJ.EQ.CAGE).AND.PROP(BIRD).NE.0)$/;"	l	file:
+9015	data/advent.for	/^9015	PROP(BIRD)=1$/;"	l	file:
+9016	data/advent.for	/^9016	IF(OBJ.NE.BIRD)GOTO 9014$/;"	l	file:
+9017	data/advent.for	/^9017	IF(HOLDNG.LT.7)GOTO 9016$/;"	l	file:
+9018	data/advent.for	/^9018	OBJ=BOTTLE$/;"	l	file:
+9020	data/advent.for	/^9020	IF(TOTING(ROD2).AND.OBJ.EQ.ROD.AND..NOT.TOTING(ROD))OBJ=ROD2$/;"	l	file:
+9021	data/advent.for	/^9021	K=LIQ(0)$/;"	l	file:
+9024	data/advent.for	/^9024	IF(OBJ.NE.COINS.OR..NOT.HERE(VEND))GOTO 9025$/;"	l	file:
+9025	data/advent.for	/^9025	IF(OBJ.NE.BIRD.OR..NOT.AT(DRAGON).OR.PROP(DRAGON).NE.0)GOTO 9026$/;"	l	file:
+9026	data/advent.for	/^9026	IF(OBJ.NE.BEAR.OR..NOT.AT(TROLL))GOTO 9027$/;"	l	file:
+9027	data/advent.for	/^9027	IF(OBJ.EQ.VASE.AND.LOC.NE.PLAC(PILLOW))GOTO 9028$/;"	l	file:
+9028	data/advent.for	/^9028	PROP(VASE)=2$/;"	l	file:
+9030	data/advent.for	/^9030	CALL A5TOA1(WD2,WD2X,'".',TK,K)$/;"	l	file:
+9032	data/advent.for	/^9032	FORMAT(\/' Okay, "',20A1)$/;"	l	file:
+9035	data/advent.for	/^9035	WD2=0$/;"	l	file:
+9040	data/advent.for	/^9040	IF(OBJ.EQ.CLAM.OR.OBJ.EQ.OYSTER)GOTO 9046$/;"	l	file:
+9043	data/advent.for	/^9043	K=34+PROP(GRATE)$/;"	l	file:
+9046	data/advent.for	/^9046	K=0$/;"	l	file:
+9048	data/advent.for	/^9048	IF(VERB.EQ.LOCK)GOTO 9049$/;"	l	file:
+9049	data/advent.for	/^9049	SPK=172$/;"	l	file:
+9070	data/advent.for	/^9070	IF(.NOT.HERE(LAMP))GOTO 2011$/;"	l	file:
+9080	data/advent.for	/^9080	IF(.NOT.HERE(LAMP))GOTO 2011$/;"	l	file:
+9090	data/advent.for	/^9090	IF((.NOT.TOTING(OBJ)).AND.(OBJ.NE.ROD.OR..NOT.TOTING(ROD2)))$/;"	l	file:
+9120	data/advent.for	/^9120	DO 9121 I=1,5$/;"	l	file:
+9121	data/advent.for	/^9121	CONTINUE$/;"	l	file:
+9122	data/advent.for	/^9122	IF(OBJ.NE.0)GOTO 9124$/;"	l	file:
+9124	data/advent.for	/^9124	IF(OBJ.NE.BIRD)GOTO 9125$/;"	l	file:
+9125	data/advent.for	/^9125	IF(OBJ.EQ.0)SPK=44$/;"	l	file:
+9126	data/advent.for	/^9126	CONTINUE$/;"	l	file:
+9130	data/advent.for	/^9130	IF(OBJ.EQ.BOTTLE.OR.OBJ.EQ.0)OBJ=LIQ(0)$/;"	l	file:
+9132	data/advent.for	/^9132	PROP(DOOR)=0$/;"	l	file:
+9140	data/advent.for	/^9140	IF(OBJ.EQ.FOOD)GOTO 8142$/;"	l	file:
+9150	data/advent.for	/^9150	IF(OBJ.EQ.0.AND.LIQLOC(LOC).NE.WATER.AND.(LIQ(0).NE.WATER$/;"	l	file:
+9160	data/advent.for	/^9160	IF(OBJ.NE.LAMP)SPK=76$/;"	l	file:
+9170	data/advent.for	/^9170	IF(TOTING(ROD2).AND.OBJ.EQ.ROD.AND..NOT.TOTING(ROD))OBJ=ROD2$/;"	l	file:
+9171	data/advent.for	/^9171	CONTINUE$/;"	l	file:
+9172	data/advent.for	/^9172	SPK=48$/;"	l	file:
+9175	data/advent.for	/^9175	CALL RSPEAK(SPK)$/;"	l	file:
+9177	data/advent.for	/^9177	OBJ=BEAR$/;"	l	file:
+9178	data/advent.for	/^9178	SPK=159$/;"	l	file:
+9190	data/advent.for	/^9190	IF(AT(OBJ).OR.(LIQ(0).EQ.OBJ.AND.AT(BOTTLE))$/;"	l	file:
+9192	data/advent.for	/^9192	IF(DLOC(I).EQ.LOC.AND.DFLAG.GE.2.AND.OBJ.EQ.DWARF)SPK=94$/;"	l	file:
+9210	data/advent.for	/^9210	IF(OBJ.NE.BIRD)GOTO 9212$/;"	l	file:
+9212	data/advent.for	/^9212	IF(OBJ.NE.SNAKE.AND.OBJ.NE.DRAGON.AND.OBJ.NE.TROLL)GOTO 9213$/;"	l	file:
+9213	data/advent.for	/^9213	IF(OBJ.NE.DWARF)GOTO 9214$/;"	l	file:
+9214	data/advent.for	/^9214	IF(OBJ.NE.BEAR)GOTO 9215$/;"	l	file:
+9215	data/advent.for	/^9215	SPK=14$/;"	l	file:
+9220	data/advent.for	/^9220	IF(OBJ.EQ.VASE)GOTO 9222$/;"	l	file:
+9222	data/advent.for	/^9222	SPK=29$/;"	l	file:
+9230	data/advent.for	/^9230	IF(PROP(ROD2).LT.0.OR..NOT.CLOSED)GOTO 2011$/;"	l	file:
+9270	data/advent.for	/^9270	IF(DARK(0))GOTO 5190$/;"	l	file:
+9280	data/advent.for	/^9280	IF(OBJ.EQ.MIRROR)SPK=148$/;"	l	file:
+9282	data/advent.for	/^9282	SPK=198$/;"	l	file:
+9290	data/advent.for	/^9290	IF(OBJ.NE.DWARF.OR..NOT.CLOSED)GOTO 2011$/;"	l	file:
+95	data/advent.for	/^95	CALL RSPEAK(131)$/;"	l	file:
+98	data/advent.for	/^98	CONTINUE$/;"	l	file:
+99	data/advent.for	/^99	CALL MSPEAK(20)$/;"	l	function:WIZARD	file:
+99	data/advent.for	/^99	IF(CLOSNG)GOTO 95$/;"	l	file:
+A5TOA1	data/advent.for	/^	SUBROUTINE A5TOA1(/;"	s
+ABBR_MSG	Parser.h	/^#define ABBR_MSG /;"	d
+ACTIONS	Parser.h	/^#define ACTIONS /;"	d
+APP	Makefile	/^APP = output\/advent$/;"	m
+BUG	data/advent.for	/^	SUBROUTINE BUG(/;"	s
+CARRY	data/advent.for	/^	SUBROUTINE CARRY(/;"	s
+CFLAGS	Makefile	/^CFLAGS = -g$/;"	m
+CIAO	data/advent.for	/^	SUBROUTINE CIAO$/;"	s
+CLASS_MSG	Parser.h	/^#define CLASS_MSG /;"	d
+COMPILER	Makefile	/^COMPILER = g++$/;"	m
+DATIME	data/advent.for	/^	SUBROUTINE DATIME(/;"	s
+DROP	data/advent.for	/^	SUBROUTINE DROP(/;"	s
+DSTROY	data/advent.for	/^	SUBROUTINE DSTROY(/;"	s
+ELEMENT_DESC	Parser.h	/^#define ELEMENT_DESC /;"	d
+ELEMENT_H	Element.h	/^#define	ELEMENT_H$/;"	d
+ELEMENT_LOCATION	Parser.h	/^#define ELEMENT_LOCATION /;"	d
+END_LINE	Parser.h	/^#define END_LINE /;"	d
+Element	Element.cpp	/^Element::Element(string desc="")$/;"	f	class:Element
+Element	Element.h	/^class Element {$/;"	c
+GETIN	data/advent.for	/^	SUBROUTINE GETIN(/;"	s
+HINTS	Parser.h	/^#define HINTS /;"	d
+HOST	main.cpp	/^#define HOST /;"	d	file:
+HOURS	data/advent.for	/^	SUBROUTINE HOURS$/;"	s
+HOURSX	data/advent.for	/^	SUBROUTINE HOURSX(/;"	s
+How to run this application	README.md	/^# How to run this application$/;"	h
+JUGGLE	data/advent.for	/^	SUBROUTINE JUGGLE(/;"	s
+LIQUID_ASSET	Parser.h	/^#define LIQUID_ASSET /;"	d
+LOCATIONS	Parser.h	/^#define LOCATIONS /;"	d
+LONG_DESC_SECTION	Parser.h	/^#define LONG_DESC_SECTION /;"	d
+MAGIC_WORDS	Parser.h	/^#define MAGIC_WORDS /;"	d
+MAINT	data/advent.for	/^	SUBROUTINE MAINT$/;"	s
+MAXCONNECTIONS	Socket.h	/^const int MAXCONNECTIONS = 5;$/;"	v
+MAXHOSTNAME	Socket.h	/^const int MAXHOSTNAME = 200;$/;"	v
+MAXRECV	Socket.h	/^const int MAXRECV = 600;$/;"	v
+MOTD	data/advent.for	/^	SUBROUTINE MOTD(/;"	s
+MOVE	data/advent.for	/^	SUBROUTINE MOVE(/;"	s
+MSPEAK	data/advent.for	/^	SUBROUTINE MSPEAK(/;"	s
+NEWHRS	data/advent.for	/^	SUBROUTINE NEWHRS$/;"	s
+NEWHRX	data/advent.for	/^	INTEGER FUNCTION NEWHRX(/;"	f
+NODE_H	Node.h	/^#define	NODE_H$/;"	d
+Node	Node.cpp	/^Node::Node(string clue_word){$/;"	f	class:Node
+Node	Node.h	/^class Node{$/;"	c
+OBJECTS	Makefile	/^OBJECTS = $(SOURCES:.cpp=.o)$/;"	m
+PARSER_H	Parser.h	/^#define	PARSER_H$/;"	d
+PLAYER_H	Player.h	/^#define	PLAYER_H$/;"	d
+POOF	data/advent.for	/^	SUBROUTINE POOF$/;"	s
+PORT	main.cpp	/^#define PORT /;"	d	file:
+PSPEAK	data/advent.for	/^	SUBROUTINE PSPEAK(/;"	s
+PUT	data/advent.for	/^	INTEGER FUNCTION PUT(/;"	f
+Parser	Parser.cpp	/^Parser::Parser(string fileName) {$/;"	f	class:Parser
+Parser	Parser.h	/^class Parser {$/;"	c
+Player	Player.cpp	/^Player::Player(string name, int score, int location){$/;"	f	class:Player
+Player	Player.h	/^class Player {$/;"	c
+RAN	data/advent.for	/^	INTEGER FUNCTION RAN(/;"	f
+RSPEAK	data/advent.for	/^	SUBROUTINE RSPEAK(/;"	s
+SEPARATOR	Parser.h	/^#define SEPARATOR /;"	d
+SHORT_DESC_SECTION	Parser.h	/^#define SHORT_DESC_SECTION /;"	d
+SOCKET_H	Socket.h	/^#define SOCKET_H$/;"	d
+SOURCES	Makefile	/^SOURCES = Element.cpp Node.cpp Player.cpp Parser.cpp  Socket.cpp main.cpp$/;"	m
+Socket	Socket.cpp	/^Socket::Socket() : m_sock ( -1 )$/;"	f	class:Socket
+Socket	Socket.h	/^class Socket$/;"	c
+TRAVEL_TABLE	Parser.h	/^#define TRAVEL_TABLE /;"	d
+VERBS	Parser.h	/^#define VERBS /;"	d
+VOCABULARY	Parser.h	/^#define VOCABULARY /;"	d
+WIZARD	data/advent.for	/^	LOGICAL FUNCTION WIZARD(/;"	f
+YES	data/advent.for	/^	LOGICAL FUNCTION YES(/;"	f
+YESM	data/advent.for	/^	LOGICAL FUNCTION YESM(/;"	f
+YESX	data/advent.for	/^	LOGICAL FUNCTION YESX(/;"	f
+abbr_messages	Parser.h	/^    string abbr_messages[202];$/;"	m	class:Parser
+accept	Socket.cpp	/^bool Socket::accept ( Socket& new_socket ) const$/;"	f	class:Socket
+action_verbs	Parser.h	/^    int action_verbs[32];$/;"	m	class:Parser
+active_verbs	Node.h	/^    int active_verbs[10][10];$/;"	m	class:Node
+answer	Player.h	/^    string answer;$/;"	m	class:Player
+append	Node.cpp	/^void Node::append(string txt){$/;"	f	class:Node
+bind	Socket.cpp	/^bool Socket::bind ( const int port )$/;"	f	class:Socket
+carry_item	Player.cpp	/^void Player::carry_item(int item_id){$/;"	f	class:Player
+carrying	Player.h	/^    vector<Element * > carrying;$/;"	m	class:Player
+check_location	Player.cpp	/^bool Player::check_location(int indx){$/;"	f	class:Player
+close	Socket.cpp	/^void Socket::close(){$/;"	f	class:Socket
+clue	Node.h	/^    string clue;$/;"	m	class:Node
+connect	Socket.cpp	/^bool Socket::connect ( const std::string host, const int port )$/;"	f	class:Socket
+count	Node.h	/^    int count;$/;"	m	class:Node
+counter	Element.h	/^    int counter;$/;"	m	class:Element
+create	Socket.cpp	/^bool Socket::create()$/;"	f	class:Socket
+current_item	Player.h	/^    int current_item;$/;"	m	class:Player
+current_location_idx	Player.h	/^    int current_location_idx;$/;"	m	class:Player
+description	Element.h	/^    string description;$/;"	m	class:Element
+directions	Node.h	/^    int directions[10];$/;"	m	class:Node
+element_counter	Parser.h	/^    int element_counter;$/;"	m	class:Parser
+elements	Parser.h	/^    Element* elements[65];$/;"	m	class:Parser
+end_idx	Parser.h	/^    size_t end_idx;$/;"	m	class:Parser
+exit_with_error	main.cpp	/^int exit_with_error(string msg){$/;"	f
+fileData	Parser.h	/^    string fileData;$/;"	m	class:Parser
+format_answer	Player.cpp	/^string Player::format_answer(){$/;"	f	class:Player
+getFirstNumberOf	Parser.cpp	/^int Parser::getFirstNumberOf(string &line){$/;"	f	class:Parser
+get_clue	Node.cpp	/^string Node::get_clue(){$/;"	f	class:Node
+get_current_location	Player.cpp	/^int Player::get_current_location(){$/;"	f	class:Player
+get_info	Player.cpp	/^string Player::get_info(){$/;"	f	class:Player
+get_input	Player.cpp	/^string Player::get_input(){$/;"	f	class:Player
+get_item	Player.cpp	/^int Player::get_item(){$/;"	f	class:Player
+get_location	Player.cpp	/^Node* Player::get_location(){$/;"	f	class:Player
+get_score	Player.cpp	/^int Player::get_score(){$/;"	f	class:Player
+go_to_next_location	Player.cpp	/^void Player::go_to_next_location(){$/;"	f	class:Player
+id	Element.h	/^    int id;$/;"	m	class:Element
+id	Node.h	/^    int id;$/;"	m	class:Node
+is_action	Parser.cpp	/^bool Parser::is_action(string key){$/;"	f	class:Parser
+is_motion	Parser.cpp	/^bool Parser::is_motion(string key){$/;"	f	class:Parser
+is_object	Parser.cpp	/^bool Parser::is_object(string key){$/;"	f	class:Parser
+is_special	Parser.cpp	/^bool Parser::is_special(string key){$/;"	f	class:Parser
+is_valid	Socket.h	/^  bool is_valid() const { return m_sock != -1; }$/;"	f	class:Socket
+items	Node.h	/^    vector<Element*> items;$/;"	m	class:Node
+listen	Socket.cpp	/^bool Socket::listen() const$/;"	f	class:Socket
+location	Player.h	/^    Node* location;$/;"	m	class:Player
+locations	Parser.h	/^    Node* locations[LOCATIONS] ;$/;"	m	class:Parser
+m_addr	Socket.h	/^  sockaddr_in m_addr;$/;"	m	class:Socket
+m_sock	Socket.h	/^  int m_sock;$/;"	m	class:Socket
+main	main.cpp	/^int main() {$/;"	f
+max_items	Player.h	/^    int max_items;$/;"	m	class:Player
+message_id	Player.h	/^    int message_id;$/;"	m	class:Player
+messages	Element.h	/^    string messages[6];$/;"	m	class:Element
+moveable	Element.h	/^    bool  moveable;$/;"	m	class:Element
+moves	Player.h	/^    int moves;$/;"	m	class:Player
+name	Player.h	/^    string name;$/;"	m	class:Player
+needed_item	Node.h	/^    int needed_item;$/;"	m	class:Node
+noun	Player.h	/^    string noun;$/;"	m	class:Player
+parse_abbr_msg	Parser.cpp	/^void Parser::parse_abbr_msg(string &line){$/;"	f	class:Parser
+parse_actions	Parser.cpp	/^void Parser::parse_actions(string& line){$/;"	f	class:Parser
+parse_element_desc	Parser.cpp	/^void Parser::parse_element_desc(string &line){$/;"	f	class:Parser
+parse_element_location	Parser.cpp	/^void Parser::parse_element_location(string& line){$/;"	f	class:Parser
+parse_locations	Parser.cpp	/^void Parser::parse_locations(string &line, int first_number ){$/;"	f	class:Parser
+parse_player_classification	Parser.cpp	/^void Parser::parse_player_classification(string& line){$/;"	f	class:Parser
+parse_travel_table	Parser.cpp	/^void Parser::parse_travel_table(string &line, int first_number){$/;"	f	class:Parser
+parse_vocabulary	Parser.cpp	/^void Parser::parse_vocabulary(string &line){$/;"	f	class:Parser
+prop_vlaue	Player.cpp	/^int Player::prop_vlaue(int m){$/;"	f	class:Player
+recv	Socket.cpp	/^int Socket::recv ( std::string& s ) const$/;"	f	class:Socket
+score	Player.h	/^    int score;$/;"	m	class:Player
+send	Socket.cpp	/^bool Socket::send ( const std::string s ) const$/;"	f	class:Socket
+set_clue	Node.cpp	/^void Node::set_clue(string clue){$/;"	f	class:Node
+set_current_location	Player.cpp	/^void Player::set_current_location(int location){$/;"	f	class:Player
+set_item	Player.cpp	/^void Player::set_item(int item){$/;"	f	class:Player
+set_location	Player.cpp	/^void Player::set_location(Node* loc){$/;"	f	class:Player
+set_score	Player.cpp	/^void Player::set_score(int score){$/;"	f	class:Player
+set_short_clue	Node.cpp	/^void set_short_clue(string short_clue){$/;"	f
+short_clue	Node.h	/^    string short_clue;$/;"	m	class:Node
+start_idx	Parser.h	/^    size_t start_idx;$/;"	m	class:Parser
+tokenizer	Parser.cpp	/^string Parser::tokenizer(string &line, string delimiter){$/;"	f	class:Parser
+verb	Player.h	/^    string verb;$/;"	m	class:Player
+vocabulary	Parser.h	/^    map <string, int> vocabulary;$/;"	m	class:Parser
+~Element	Element.cpp	/^Element::~Element()$/;"	f	class:Element
+~Node	Node.cpp	/^Node::~Node(){}$/;"	f	class:Node
+~Parser	Parser.cpp	/^Parser::~Parser() {$/;"	f	class:Parser
+~Player	Player.cpp	/^Player::~Player(){}$/;"	f	class:Player
+~Socket	Socket.cpp	/^Socket::~Socket()$/;"	f	class:Socket

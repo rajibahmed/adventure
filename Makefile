@@ -1,13 +1,14 @@
 COMPILER = g++
-SOURCES =  Element.cpp Node.cpp Player.cpp Parser.cpp  Socket.cpp main.cpp 
+CFLAGS = -g
+SOURCES =  Element.cpp Node.cpp Player.cpp Parser.cpp  Socket.cpp main.cpp
 APP = output/advent
 OBJECTS = $(SOURCES:.cpp=.o)
 
 
-all: $(SOURCES) $(APP) 
-	
+all: $(SOURCES) $(APP)
+
 $(APP): $(OBJECTS)
-	$(COMPILER) $(OBJECTS) -o $@
+	$(COMPILER) $(CFLAGS) $(OBJECTS) -o $@
 
 clean:
 	rm -rf *.o $(APP)

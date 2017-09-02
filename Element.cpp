@@ -8,7 +8,7 @@
 
 #include "Element.h"
 
-Element::Element(string desc="")
+Element::Element(string desc)
 {
    description=desc;
    moveable = true;
