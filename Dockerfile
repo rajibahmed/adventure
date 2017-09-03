@@ -1,8 +1,9 @@
-FROM alpine:3.6
+FROM debian:jessie
 
-ENV APP_DIR=/usr/src/adventure
+ENV APP_DIR=/opt/src/adventure
 
-RUN apk add --no-cache g++ musl-dev make bash gdb
+
+RUN apt-get update && apt-get install build-essential g++ gdb
 
 WORKDIR $APP_DIR
 VOLUME $APP_DIR
